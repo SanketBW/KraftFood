@@ -20,6 +20,7 @@ li a {
     text-decoration: none;
     color: black;
     margin-right: 10px;
+    opacity: 0.5;
 }
 
 .d1 img {
@@ -33,7 +34,9 @@ li a {
     transform: rotate(360deg);
     transition: 2s;
 }
-
+li a:hover{
+    opacity: 1.0;
+}
 .main {
     width: 95%;
     margin-left: 20px;
